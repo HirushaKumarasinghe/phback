@@ -1,0 +1,336 @@
+{
+    "data":[
+        {
+            "question":"Employee Development",
+            "type":"bar",
+            "labels": [
+                "The work I do is in line with my targets and objectives",
+                "I receive proper training and mentoring for the work I do",
+                "I receive recognition and/or rewards when I do my work well",
+                "My development in areas other than the work I do is promoted by the company (Sports, Toastmasters, Rotaract etc.))"
+              ],
+              "datasets": [
+                {
+                  "label": "Strongly Disagree",
+                  "backgroundColor": "#0052FA",
+                  "borderColor": "#0052FA",
+                  "data": [2, 3, 6, 5]
+                },
+                {
+                  "label": "Disagree",
+                  "backgroundColor": "#DB130A",
+                  "borderColor": "#DB130A",
+                  "data": [6,7,7,9]
+                },
+                {
+                  "label": "Neutral",
+                  "backgroundColor": "#F28907",
+                  "borderColor": "#F28907",
+                  "data": [9, 13, 12, 18]
+                },
+                {
+                  "label": "Agree",
+                  "backgroundColor": "#25FF05",
+                  "borderColor": "#25FF05",
+                  "data": [36, 33, 26, 22]
+                },
+                {
+                  "label": "Strongly Agree",
+                  "backgroundColor": "#B000FA",
+                  "borderColor": "#B000FA",
+                  "data": [8, 7, 12, 9]
+                }
+              ]
+        },
+        {
+            "question":"How would you rate the Employee development in your company",
+            "type":"bar",
+            "labels": [
+                "1","2","3","4","5"
+              ],
+              "datasets": [
+                {
+                  "label": "Rating",
+                  "backgroundColor": "#0554FF",
+                  "borderColor": "#0554FF",
+                  "data": [5,5,21,26,6]
+                }
+              ]
+        },
+        {
+            "question":"What is your personal opinion on the Employee Development of your company?",
+            "type":"pie",
+            "labels": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "datasets": [
+              {
+                "label": "My Pie chart",
+                "backgroundColor": [
+                  "#0508FF",
+                  "#DB006A",
+                  "#F28907",
+                  "#C0DB0B",
+                  "#34FAB2"
+                ],
+                "hoverBorderColor": "",
+                "borderColor": "",
+                "borderWidth": 0,
+                "data": [80, 74, 55, 62, 60, 70, 45]
+              }
+            ]
+        },
+        {
+            "question":"Culture",
+            "type":"bar",
+            "labels": [
+                "The core values of the company are aligned with my own",
+                "I am given the freedom to decide how to work",
+                "My team supports me whenever necessary",
+                "The work environment is beneficial for productive work"
+              ],
+              "datasets": [
+                {
+                  "label": "Strongly Disagree",
+                  "backgroundColor": "#0052FA",
+                  "borderColor": "#0052FA",
+                  "data": [0, 2, 2, 1]
+                },
+                {
+                  "label": "Disagree",
+                  "backgroundColor": "#DB130A",
+                  "borderColor": "#DB130A",
+                  "data": [9,7,4,5]
+                },
+                {
+                  "label": "Neutral",
+                  "backgroundColor": "#F28907",
+                  "borderColor": "#F28907",
+                  "data": [12, 13, 5, 11]
+                },
+                {
+                  "label": "Agree",
+                  "backgroundColor": "#25FF05",
+                  "borderColor": "#25FF05",
+                  "data": [34, 32, 31, 25]
+                },
+                {
+                  "label": "Strongly Agree",
+                  "backgroundColor": "#B000FA",
+                  "borderColor": "#B000FA",
+                  "data": [8, 9, 21, 21]
+                }
+              ]
+        },
+        {
+            "question":"How would you rate the Culture in your company",
+            "type":"bar",
+            "labels": [
+                "1","2","3","4","5"
+              ],
+              "datasets": [{
+                "label": "Rating",
+                "backgroundColor": "#0554FF",
+                "borderColor": "#0554FF",
+                "data": [5,5,21,26,6]
+              }]
+        },
+        {
+            "question":"What is your personal opinion on the culture of your organization?",
+            "type":"pie",
+            "labels": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "datasets": [
+              {
+                "label": "My Pie chart",
+                "backgroundColor": [
+                  "#0508FF",
+                  "#DB006A",
+                  "#F28907",
+                  "#C0DB0B",
+                  "#34FAB2"
+                ],
+                "hoverBorderColor": "",
+                "borderColor": "",
+                "borderWidth": 0,
+                "data": [80, 74, 55, 62, 60, 70, 45]
+              }
+            ]
+        },
+        {
+            "question":"Work-Life Balance",
+            "type":"bar",
+            "labels": [
+                "The workload I get is manageable",
+                "The work hours I work are flexible",
+                "The company has extra curricular activities",
+                "The company organizes outings and CSR/Volunteer work"
+              ],
+              "datasets": [
+                {
+                  "label": "Strongly Disagree",
+                  "backgroundColor": "#0052FA",
+                  "borderColor": "#0052FA",
+                  "data": [2, 3, 6, 5]
+                },
+                {
+                  "label": "Disagree",
+                  "backgroundColor": "#DB130A",
+                  "borderColor": "#DB130A",
+                  "data": [6,7,7,9]
+                },
+                {
+                  "label": "Neutral",
+                  "backgroundColor": "#F28907",
+                  "borderColor": "#F28907",
+                  "data": [9, 13, 12, 18]
+                },
+                {
+                  "label": "Agree",
+                  "backgroundColor": "#25FF05",
+                  "borderColor": "#25FF05",
+                  "data": [36, 33, 26, 22]
+                },
+                {
+                  "label": "Strongly Agree",
+                  "backgroundColor": "#B000FA",
+                  "borderColor": "#B000FA",
+                  "data": [8, 7, 12, 9]
+                }
+              ]
+        },
+        {
+            "question":"How would you rate the work-life balance in your company",
+            "type":"bar",
+            "labels": [
+                "1","2","3","4","5"
+              ],
+              "datasets": [{
+                "label": "Rating",
+                "backgroundColor": "#0554FF",
+                "borderColor": "#0554FF",
+                "data": [5,5,21,26,6]
+              }
+              ]
+        },
+        {
+            "question":"What is your personal opinion on work-life balance with regards to your company?",
+            "type":"pie",
+            "labels": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "datasets": [
+              {
+                "label": "My Pie chart",
+                "backgroundColor": [
+                  "#0508FF",
+                  "#DB006A",
+                  "#F28907",
+                  "#C0DB0B",
+                  "#34FAB2"
+                ],
+                "hoverBorderColor": "",
+                "borderColor": "",
+                "borderWidth": 0,
+                "data": [80, 74, 55, 62, 60, 70, 45]
+              }
+            ]
+        },
+        {
+            "question":"Leadership",
+            "type":"bar",
+            "labels": [
+                "My line manager facilitates my work",
+                "I receive proper training and mentoring for the work I do",
+                "I receive recognition and/or rewards when I do my work well",
+                "My development in areas other than the work I do is promoted by the company (Sports, Toastmasters, Rotaract etc.))"
+              ],
+              "datasets": [
+                {
+                  "label": "Strongly Disagree",
+                  "backgroundColor": "#0052FA",
+                  "borderColor": "#0052FA",
+                  "data": [2, 3, 6, 5]
+                },
+                {
+                  "label": "Disagree",
+                  "backgroundColor": "#DB130A",
+                  "borderColor": "#DB130A",
+                  "data": [6,7,7,9]
+                },
+                {
+                  "label": "Neutral",
+                  "backgroundColor": "#F28907",
+                  "borderColor": "#F28907",
+                  "data": [9, 13, 12, 18]
+                },
+                {
+                  "label": "Agree",
+                  "backgroundColor": "#25FF05",
+                  "borderColor": "#25FF05",
+                  "data": [36, 33, 26, 22]
+                },
+                {
+                  "label": "Strongly Agree",
+                  "backgroundColor": "#B000FA",
+                  "borderColor": "#B000FA",
+                  "data": [8, 7, 12, 9]
+                }
+              ]
+        },
+        {
+            "question":"How would you rate the leadership in your company",
+            "type":"bar",
+            "labels": [
+                "1","2","3","4","5"
+              ],
+              "datasets": [{
+                "label": "Rating",
+                "backgroundColor": "#0554FF",
+                "borderColor": "#0554FF",
+                "data": [5,5,21,26,6]
+              }
+              ]
+        },
+        {
+            "question":"What is your personal opinion on the leadership of your company?",
+            "type":"pie",
+            "labels": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "datasets": [
+              {
+                "label": "My Pie chart",
+                "backgroundColor": [
+                  "#0508FF",
+                  "#DB006A",
+                  "#F28907",
+                  "#C0DB0B",
+                  "#34FAB2"
+                ],
+                "hoverBorderColor": "",
+                "borderColor": "",
+                "borderWidth": 0,
+                "data": [80, 74, 55, 62, 60, 70, 45]
+              }
+            ]
+        }
+    ]
+}

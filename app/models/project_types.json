@@ -1,0 +1,16 @@
+{
+    "technologies":[
+        {
+            "type":"Javascript Frameworks",
+            "search":"node"
+        },
+        {
+            "type":"Java Frameworks",
+            "search":"java"
+        },
+        {
+            "type":".NET Framework",
+            "search":"c"
+        }
+    ]
+}

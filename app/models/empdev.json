@@ -1,0 +1,41 @@
+{
+    "count":6,
+    "questions":[
+        {
+            "qIndex":1,
+            "question":"The work I do is in line with my targets and objectives",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":2,
+            "question":"I receive proper training and mentoring for the work I do",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":3,
+            "question":"I receive recognition and/or rewards when I do my work well",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":4,
+            "question":"My development in areas other than the work I do is promoted by the company (Sports, Toastmasters, Rotaract etc.))",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":5,
+            "question":"How would you rate the Employee development in your company",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":6,
+            "question":"What is your personal opinion on the Employee Development of your company?",
+            "type":"text",
+            "paras":[]
+        }
+    ]
+}

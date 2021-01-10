@@ -1,0 +1,88 @@
+{
+  "_id": "1",
+  "updated_on": "2020-08-03",
+  "intw": false,
+  "jobp": false,
+  "selected": [],
+  "name": "Jane Doe",
+  "email": "jane.d@gmail.com",
+  "phone": "0781234567",
+  "gender": "male",
+  "address": "8 W Cerritos Ave #54",
+  "maritalStatus": "married",
+  "dateofbirth": "1996-08-10",
+  "nic": "963789673V",
+  "languages": ["sinhala","english"],
+  "education_count": 3,
+  "education_total": 26,
+  "education": [
+    {
+      "qualification": "GCE/AL",
+      "score": 9,
+      "comment": ""
+    },{
+      "qualification": "Bsc in IT",
+      "score": 8,
+      "comment": "Network Engineering"
+    },{
+      "qualification": "GCE/OL",
+      "score": 9,
+      "comment": ""
+    }
+  ],
+  "experience_count": 2,
+  "experience_total": 17,
+  "experiences": [
+    {
+      "experience": "Trainee Systems Engineer",
+      "score": 8,
+      "comment": "IFS SriLanka"
+    },
+	{
+      "experience": "Systems Engineer",
+      "score": 9,
+      "comment": "IFS SriLanka"
+    }
+  ],
+  "skills_count": 3,
+  "skills_total": 3,
+  "skills": [
+    {
+      "skill": "Python",
+      "score": 1,
+      "comment": ""
+    },
+	{
+      "skill": "AWS",
+      "score": 1,
+      "comment": ""
+    },
+	{
+      "skill": "Linux",
+      "score": 1,
+      "comment": ""
+    }
+  ],
+  "social": {
+    "linkedIn": "https://url.com/path/to/url",
+    "facebook": "https://url.com/path/to/url",
+    "twitter": "https://url.com/path/to/url",
+    "stack": "https://url.com/path/to/url",
+    "github": "https://url.com/path/to/url"
+  },
+  "softskills_total":59,
+  "softskills": {
+    "Leadership": 2,
+    "Problem_Solving": 5,
+    "Creativity": 6,
+    "Team_work": 8,
+    "Time_Management": 6,
+    "Self_Motivation": 7,
+    "Social": 5,
+    "Communication": 6,
+    "Flexibility": 6,
+    "Inquisitive": 8
+  },
+  "aptitude_test": 5,
+  "technical_questions": 6
+}

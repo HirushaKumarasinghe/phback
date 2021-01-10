@@ -1,0 +1,17 @@
+{
+    "count":2,
+    "questions":[
+        {
+            "qIndex":7,
+            "question":"How likely would you recommend your company to another person",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":8,
+            "question":"Do you enjoy working in your company",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        }
+    ]
+}

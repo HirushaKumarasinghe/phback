@@ -1,0 +1,48 @@
+{
+    "required_time":"63",
+    "employee_count":7,
+    "employees":[
+        {
+            "name":"Denuwan Dabare",
+            "designation":"Project Manager",
+            "skills":["Java"],
+            "tools":["Intelij","Visual Studio Code","Jira"]
+        },
+        {
+            "name":"Beckhem Cooray",
+            "designation":"Tech Lead",
+            "skills":["NodeJS","Java","Spring boot"],
+            "tools":["Intelij","Visual Studio Code"]
+        },
+        {
+            "name":"Pasindu Kannangara",
+            "designation":"Senior Software Engineer",
+            "skills":["NodeJS","Java","Spring boot"],
+            "tools":["Intelij","Visual Studio Code"]
+        },
+        {
+            "name":"Dulari Fernando",
+            "designation":"Associate Software Engineer",
+            "skills":["NodeJS","Java","Spring boot"],
+            "tools":["Intelij","Visual Studio Code"]
+        },
+        {
+            "name":"Oshini Wijethunga",
+            "designation":"UI Designer",
+            "skills":["Graphic Designing"],
+            "tools":["Photoshop","Illustrator","AdobeXD"]
+        },
+        {
+            "name":"Bushara Anese",
+            "designation":"cyber security Engineer",
+            "skills":["NodeJS","Java","Spring boot"],
+            "tools":["Metaspolit","Wireshark"]
+        },
+        {
+            "name":"Jhon Deo",
+            "designation":"QA Engineer",
+            "skills":[],
+            "tools":["selenium"]
+        }
+    ]
+}

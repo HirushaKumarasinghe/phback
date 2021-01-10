@@ -1,0 +1,41 @@
+{
+    "count":6,
+    "questions":[
+        {
+            "qIndex":1,
+            "question":"The core values of the company are aligned with my own",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":2,
+            "question":"I am given the freedom to decide how to work",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":3,
+            "question":"My team supports me whenever necessary",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":4,
+            "question":"The work environment is beneficial for productive work",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":5,
+            "question":"How would you rate the Culture in your company",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":6,
+            "question":"What is your personal opinion on the culture of your organization?",
+            "type":"text",
+            "paras":[]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "dashback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HirushaKumarasinghe/dashback.git"
+  },
+  "author": "Hirusha Kumarasinghe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HirushaKumarasinghe/dashback/issues"
+  },
+  "homepage": "https://github.com/HirushaKumarasinghe/dashback#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "geoip-lite": "^1.4.2",
+    "mongodb": "^3.5.9",
+    "node-device-detector": "^1.2.5",
+    "nodemon": "^2.0.4",
+    "pg": "^8.4.2",
+    "request-ip": "^2.1.3"
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "count":6,
+    "questions":[
+        {
+            "qIndex":1,
+            "question":"My line manager facilitates my work",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":2,
+            "question":"Company goals and objectives which are set are achievable and I know my part in achieving them",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":3,
+            "question":"There is a clear communication of company targets and objectives from the leadership",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":4,
+            "question":"The business goals and strategies are taking the company in the right path",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":5,
+            "question":"How would you rate the leadership in your company",
+            "type":"radio",
+            "paras":["Strongly Disagree","Disagree","Neutral","Agree","Strongly Agree"]
+        },
+        {
+            "qIndex":6,
+            "question":"What is your personal opinion on the leadership of your company?",
+            "type":"text",
+            "paras":[]
+        }
+    ]
+}

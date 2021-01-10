@@ -1,0 +1,86 @@
+{
+    "employees_count": 1,
+    "employees": [
+        {
+            "name": "HETTIGE DON RAVINDU RASHMIKA HETTIGE",
+            "email": "rashmikaravindu@gmail.com",
+            "phone": "(+94)713905184 / (+94)112757354",
+            "address": "41/3F/4A ,Blackpearl Estate,Watereka,Meegoda.",
+            "education_count": 5,
+            "education_total": 8,
+            "education": [
+                {
+                    "qualification": "B.Sc. Special (Hons) – Information Technology",
+                    "comment": "Expected Graduation Date – Feb 2017"
+                },
+                {
+                    "qualification": "Diploma in Information Technology (Esoft)",
+                    "comment": ""
+                },
+                {
+                    "qualification": "Diploma in Information Technology (Ewis)",
+                    "comment": ""
+                },
+                {
+                    "qualification": "GCE Advance Level (Sinhala Medium-Ananda College,Colombo 10)",
+                    "comment": ""
+                },
+                {
+                    "qualification": "GCE Ordinary Level (English Medium-Ananda College,Colombo 10) Dec 2008",
+                    "comment": ""
+                }
+            ],
+            "experience_count": 0,
+            "experience_total": 0,
+            "experiences": [
+                {
+                    "experience": "",
+                    "comment": ""
+                }
+            ],
+            "skills_count": 6,
+            "skills_total": 12,
+            "skills": [
+                {
+                    "skill": "C++",
+                    "comment": ""
+                },
+                {
+                    "skill": "C#",
+                    "comment": ""
+                },
+                {
+                    "skill": "Java",
+                    "comment": ""
+                },
+                {
+                    "skill": "PHP",
+                    "comment": ""
+                },
+                {
+                    "skill": "MySQL",
+                    "comment": ""
+                },
+                {
+                    "skill": "MS SQL",
+                    "comment": ""
+                }
+            ],
+            "soft_skills_count": 0,
+            "soft_skills_total": 0,
+            "soft_skills": [
+                {
+                    "type": "",
+                    "outOf": ""
+                }
+            ],
+            "social": {
+                "linkedIn": "",
+                "facebook": "",
+                "twitter": "",
+                "stack": "",
+                "github": ""
+            }
+        }
+    ]
+}

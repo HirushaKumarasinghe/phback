@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "name": "Padula Guruge",
+            "score": 90,
+            "contact": "0776341997",
+            "email": "padula@gmail.com",
+            "mscore": 34
+        },
+        {
+            "name": "Rahal Amirth",
+            "score": 82,
+            "contact": "0728343000",
+            "email": "rahala49@gmail.com",
+            "mscore": 24
+        },
+        {
+            "name": "Savindu Nipun",
+            "score": 78,
+            "contact": "0776345006",
+            "email": "snipun@gmail.com",
+            "mscore": 44
+        },
+        {
+            "name": "Sandini Pitawala",
+            "score": 77,
+            "contact": "0771138255",
+            "email": "sandini97@gmail.com",
+            "mscore": 40
+        },
+        {
+            "name": "Dulanjana Isuru",
+            "score": 60,
+            "contact" :"0713645444",
+            "email": "isududulanjana@gmail.com",
+            "mscore": 50
+        },
+        {
+            "name": "Pasindu Chamod",
+            "score": 60,
+            "contact": "0756241887",
+            "email": "chamod.p@gmail.com",
+            "mscore": 48
+        }
+    ]
+}
