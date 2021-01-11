@@ -1,7 +1,16 @@
+const fetch = require('node-fetch');
+
 var data_set = require("../models/employee.json");
 
 const pool = require("../config/pg");
 const DBS = require('../database/dbs');
+
+const baseURL = "https://vg2gtzbtlf.execute-api.us-east-1.amazonaws.com";
+
+var mongoUtil = require('../config/mongoUtil');
+// var db = mongoUtil.getDb();
+
+// db.collection( 'users' ).find();
 
 var fs = require('fs');
 
@@ -174,7 +183,7 @@ exports.uploadProject = (req, res) => {
     var cv_name = file.name;
     var dir = req.body.dir;
 
-    var dirname = 'public/'+dir
+    var dirname = 'public/' + dir
 
     file.mv(dirname + file.name, function (err) {
 
@@ -192,10 +201,10 @@ exports.addskill = (req, res) => {
 
     var skill = req.body.skill;
     var maxval = req.body.maxval;
-     
+
     pool.query(
         DBS.ADD_SKILL,
-        [skill,maxval],
+        [skill, maxval],
         (error, results) => {
             if (error) {
                 console.log(error);
@@ -213,7 +222,7 @@ exports.addskill = (req, res) => {
 exports.dellskill = (req, res) => {
 
     var skillid = req.body.skillid;
-     
+
     pool.query(
         DBS.DELETE_SKILL,
         [skillid],
@@ -232,7 +241,7 @@ exports.dellskill = (req, res) => {
     );
 };
 exports.viewskill = (req, res) => {
-     
+
     pool.query(
         DBS.VIEW_SKILL,
         [],
@@ -254,3 +263,133 @@ exports.viewskill = (req, res) => {
 
 //interview
 //show
+exports.showScoreCards = (req, res) => {
+
+    var db = mongoUtil.getDb();
+
+    db.collection('employees').find().toArray(function (err, docs) {
+        if (err) {
+            res.status(500);
+        } else {
+            res.status(200).json({ data: docs });
+        }
+    });
+
+};
+
+exports.oneScoreCard = (req, res) => {
+
+    var eid = req.body.eid;
+
+    var db = mongoUtil.getDb();
+
+    db.collection('employees').find({ '_id': 1 }).toArray(function (err, docs) {
+        if (err) {
+            res.status(500);
+        } else {
+            res.status(200).json({ data: docs });
+        }
+    });
+};
+
+exports.initial = (req, res) => {
+
+    var url = baseURL+"/Prod/iShort";
+    var body = req.body;
+
+    // console.log(url);
+    // console.log(body);
+
+
+    fetch(url, {
+        method: 'post',
+        body: JSON.stringify(body),
+        headers: { 'Content-Type': 'application/json' },
+    })
+        .then(res => res.json())
+        .then(json => res.status(200).send(json));
+
+};
+
+exports.algorithm = (req, res) => {
+    var url1 = baseURL+"/Prod/algo1";
+    var url2 = baseURL+"/Prod/algo2";
+    var url3 = baseURL+"/Prod/algo3";
+
+    var body = req.body;
+    var algo = req.body.algorithm;
+
+    // console.log(url);
+    // console.log(body);
+
+    if(algo==1){
+
+        fetch(url1, {
+            method: 'post',
+            body: JSON.stringify(body),
+            headers: { 'Content-Type': 'application/json' },
+        })
+            .then(res => res.json())
+            .then(json => res.status(200).send(json));
+    }
+    else if(algo==2){
+
+        fetch(url2, {
+            method: 'post',
+            body: JSON.stringify(body),
+            headers: { 'Content-Type': 'application/json' },
+        })
+            .then(res => res.json())
+            .then(json => res.status(200).send(json));
+    }
+    else if(algo==3){
+
+        fetch(url3, {
+            method: 'post',
+            body: JSON.stringify(body),
+            headers: { 'Content-Type': 'application/json' },
+        })
+            .then(res => res.json())
+            .then(json => res.status(200).send(json));
+    }
+    else{
+        res.status(400);
+    }
+};
+
+
+exports.jobposting = (req, res) => {
+    var url = baseURL+"/Prod/jpops";
+
+    var body = req.body;
+    var operation = req.body.operation;
+
+    // console.log(url);
+    // console.log(body);
+
+    if(operation=="view"){
+
+        fetch(url, {
+            method: 'post',
+            body: JSON.stringify(body),
+            headers: { 'Content-Type': 'application/json' },
+        })
+            .then(res => res.json())
+            .then(json => res.status(200).send(json));
+    }
+    else if(operation=="delete"){
+
+        fetch(url, {
+            method: 'post',
+            body: JSON.stringify(body),
+            headers: { 'Content-Type': 'application/json' },
+        })
+            .then(res => res.json())
+            .then(json => res.status(200).send(json));
+    }
+    else{
+        res.status(400);
+    }
+};
+
+

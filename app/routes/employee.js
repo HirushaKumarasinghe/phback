@@ -22,5 +22,10 @@ router.post('/score',employees.scorecard);
 router.post('/addskill',employees.addskill);
 router.post('/dellskill',employees.dellskill);
 router.post('/viewskill',employees.viewskill);
+router.post('/showcards',employees.showScoreCards);
+router.post('/onecard',employees.oneScoreCard);
 
+router.post('/initial',employees.initial);
+router.post('/algorithm',employees.algorithm);
+router.post('/jobposting',employees.jobposting);
 module.exports = router;

@@ -12,6 +12,13 @@ const apr_routes = require("./app/routes/apprasial");
 const trend_routes = require("./app/routes/trend");
 const user_routes = require("./app/routes/user");
 
+var mongoUtil = require( './app/config/mongoUtil' );
+
+mongoUtil.connectToServer( function( err, client ) {
+  if (err) console.log(err);
+  // start the rest of your app here
+} );
+
 
 const app = express();
 
