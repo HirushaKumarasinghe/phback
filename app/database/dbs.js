@@ -12,7 +12,10 @@ module.exports = Object.freeze({
     VIEW_KEYDRIVER : 'select * from key_drivers',
     ADD_TEXT_Q : "insert into questions (key_id, q_type, question) values ($1,'text',$2)",
     ADD_RADIO_Q : "insert into questions (key_id, q_type, question, answers) values ($1,'radio',$2,array['Strongly Disagree','Disagree','Neutral','Agree','Strongly Agree'])",
-    VIEW_Q : "select * from questions"
+    VIEW_Q : "select * from questions",
+    RADIO_SUM:"select an.q_id, an.answer, count(an.answer) from answers an where an.q_type = 'radio' group by an.q_id,an.answer_val,an.answer order by an.q_id,an.answer_val",
+    TEXT_SUM:"select an.q_id, an.answer_val, count(an.answer_val) from answers an where an.q_type = 'text' group by an.q_id,an.answer_val order by an.q_id,an.answer_val",
+    TEXT_TABLE:"select a.answer,a.answer_val,a.preval from answers a where a.q_type = 'text'"
 });
 
 
