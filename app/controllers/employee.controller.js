@@ -392,4 +392,8 @@ exports.jobposting = (req, res) => {
     }
 };
 
+exports.recruit = (req, res) => {
+    res.status(200);
+};
+
 

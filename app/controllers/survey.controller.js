@@ -114,6 +114,33 @@ exports.viewQuestion = (req, res) => {
     );
 };
 
+exports.createQuestionair = (req, res) => {
+
+    var emails = req.body.emails;
+    var qids = req.body.qids;
+    
+
+    pool.query(
+        DBS.VIEW_Q,
+        [],
+        (error, results) => {
+            if (error) {
+                console.log(error);
+                res.status(500).json({ message: "cannot provide this service at this time" });
+            } else {
+                if (results.rowCount > 0) {
+                    res.status(200).json({ Employees: results.rows });
+                } else {
+                    res.status(400).json({ message: "Validation error" });
+                }
+            }
+        }
+    );
+};
+
+
+
+
 // start questionair
 // collect
 //  summary

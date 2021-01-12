@@ -12,8 +12,7 @@ module.exports = Object.freeze({
     VIEW_KEYDRIVER : 'select * from key_drivers',
     ADD_TEXT_Q : "insert into questions (key_id, q_type, question) values ($1,'text',$2)",
     ADD_RADIO_Q : "insert into questions (key_id, q_type, question, answers) values ($1,'radio',$2,array['Strongly Disagree','Disagree','Neutral','Agree','Strongly Agree'])",
-    VIEW_Q : "select * from questions",
-    
+    VIEW_Q : "select * from questions"
 });
 
 

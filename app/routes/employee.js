@@ -28,4 +28,5 @@ router.post('/onecard',employees.oneScoreCard);
 router.post('/initial',employees.initial);
 router.post('/algorithm',employees.algorithm);
 router.post('/jobposting',employees.jobposting);
+router.post('/recruit',employees.recruit);
 module.exports = router;
