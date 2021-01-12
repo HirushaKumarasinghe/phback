@@ -215,7 +215,22 @@ exports.summaryQuestionair = (req, res) => {
                                                 res.status(500).json({ message: "cannot provide this service at this time" });
                                             } else {
                                                 if (table_result.rowCount > 0) {
-                                                    res.status(200).json({ bar: radio_results.rows,pie:text_results.rows,table:table_result.rows });
+                                                    pool.query(
+                                                        DBS.Q_DATA,
+                                                        [],
+                                                        (error, question_result) => {
+                                                            if (error) {
+                                                                console.log(error);
+                                                                res.status(500).json({ message: "cannot provide this service at this time" });
+                                                            } else {
+                                                                if (table_result.rowCount > 0) {
+                                                                    res.status(200).json({ questions: question_result.rows, bar: radio_results.rows, pie: text_results.rows, table: table_result.rows });
+                                                                } else {
+                                                                    res.status(400).json({ message: "Validation error" });
+                                                                }
+                                                            }
+                                                        }
+                                                    );
                                                 } else {
                                                     res.status(400).json({ message: "Validation error" });
                                                 }

@@ -15,7 +15,8 @@ module.exports = Object.freeze({
     VIEW_Q : "select * from questions",
     RADIO_SUM:"select an.q_id, an.answer, count(an.answer) from answers an where an.q_type = 'radio' group by an.q_id,an.answer_val,an.answer order by an.q_id,an.answer_val",
     TEXT_SUM:"select an.q_id, an.answer_val, count(an.answer_val) from answers an where an.q_type = 'text' group by an.q_id,an.answer_val order by an.q_id,an.answer_val",
-    TEXT_TABLE:"select a.answer,a.answer_val,a.preval from answers a where a.q_type = 'text'"
+    TEXT_TABLE:"select a.answer,a.answer_val,a.preval from answers a where a.q_type = 'text'",
+    Q_DATA:"select q.q_id,q.question from questions q"
 });
 
 
